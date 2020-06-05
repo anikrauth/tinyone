@@ -1,0 +1,269 @@
+/*Basic Css Start*/
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+img {
+    border: 0;
+    cursor: pointer;
+}
+
+p {
+    line-height: 150%;
+}
+
+clear {
+    overflow: hidden;
+}
+
+
+/*Basic Css End*/
+
+
+/*header Css start*/
+
+#header-part {
+    background: #fcdb00;
+    padding-top: 40px;
+}
+
+.menu>ul>li>a {
+    font-family: helvetica, bold;
+    font-size: 23px;
+    color: black;
+    font-weight: 600;
+    padding-right: 60px !important;
+}
+
+
+/*header Css End*/
+
+
+/*slider Css start*/
+
+#slider-part {
+    background: #fcdb00;
+    padding: 75px 0px;
+}
+
+.slider-item-one-content {
+    padding-top: 60px;
+}
+
+.slider-item-one-content .slider-item-one-content-title {
+    font-family: 'PT Sans', sans-serif;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.slider-item-one-content .slider-item-one-content-sub-title {
+    font-family: 'PT Sans', normal;
+    font-size: 25px;
+    padding: 25px 0px;
+    color: #3c3a3a;
+}
+
+.slider-item-one-content .slider-item-one-content-description {
+    font-family: 'PT Sans', normal;
+    font-size: 17px;
+    color: #3c3a3a;
+    padding-bottom: 40px;
+}
+
+.slider-item-one-content-icons>ul>li {
+    display: inline-block;
+}
+
+.slider-item-one-content-icons>ul>li>a>i {
+    font-size: 35px;
+    color: black;
+    padding-right: 26px;
+}
+
+.slider-item-one-image img {
+    max-width: 300px;
+}
+
+.custom-indicat {
+    margin-bottom: -60px;
+}
+
+.custom-indicat>li {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    margin-right: 15px;
+}
+
+.custom-indicat>.active {
+    border-radius: 50%;
+    margin-right: 15px;
+    background: black;
+    transition: all .7s ease;
+    width: 0px;
+    height: 0px !important;
+    padding: 0px 8px;
+}
+
+
+/*slider Css End*/
+
+
+/*features  part Css start*/
+
+#tinyone-features-part {
+    margin-top: 120px;
+}
+
+#tinyone-features-part .tinyone-features-part-top-content .tinyone-features-part-top-content-title {
+    font-family: 'PT Sans', sans-serif;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+#tinyone-features-part .tinyone-features-part-top-content .tinyone-features-part-top-sub-title {
+    font-family: 'PT Sans', sans-serif;
+    font-size: 20px;
+    padding: 0px 158px;
+    color: #333333;
+    line-height: 26px;
+}
+
+.tinyone-features-part-bottom {
+    margin-top: 100px;
+}
+
+.tinyone-features-part-bottom .features-bottom-image>img {
+    max-width: 42px;
+}
+
+.tinyone-features-part-bottom .features-bottom-content>h2 {
+    font-family: 'PT Sans', Regular;
+    font-size: 28px;
+}
+
+.tinyone-features-part-bottom .features-bottom-content>p {
+    font-family: 'PT Sans', normal;
+    font-size: 18px;
+    padding: 0px 6px;
+}
+
+.bootom-m-t {
+    margin-top: 65px;
+}
+
+
+/*features  part Css End*/
+
+
+/*subscription part start*/
+
+#subscription-part {
+    background: #000000;
+    margin-top: 165px;
+    padding: 100px 0px 0px 0px;
+}
+
+.subscription-part-content>h2 {
+    font-family: 'PT Sans', bold;
+    font-size: 35px;
+    color: #fcdb00;
+    font-weight: bold;
+}
+
+.subscription-part-content>p {
+    font-family: 'PT Sans', normal;
+    font-size: 22px;
+    color: #666666;
+    padding: 0px 110px;
+    line-height: 26px;
+    margin: 25px 0px 44px 0px;
+}
+
+.subscription-from {
+    padding-bottom: 10px;
+}
+
+.subscription-from .custom-subscription-custom {
+    width: 677px;
+    margin: 0 auto;
+    display: inline-block;
+    height: 42px;
+}
+
+.subscription-from .custom-subscription-btn {
+    margin: 0 auto;
+    display: inline-block;
+    background: #fcdb00;
+    color: #000000;
+    padding: 8px 25px;
+    text-transform: uppercase;
+    margin-top: -4px;
+    margin-left: 10px;
+}
+
+
+/*subscription part end*/
+
+
+/*footer part start*/
+
+#footer-part {
+    background: #000000;
+    color: #ffffff;
+    padding-bottom: 120px;
+}
+
+.social-icons {
+    padding: 80px 0px 130px 0px;
+}
+
+.social-icons ul>li {
+    background: #fcdb00;
+    border-radius: 20%;
+}
+
+.social-icons ul>li>a>i {
+    color: black;
+    font-size: 26px;
+    padding: 5px 5px;
+}
+
+.footer-menus .info>p {
+    font-family: 'PT Sans', Regular;
+    font-size: 16px;
+    padding-top: 0;
+}
+
+.footer-menus .footer-menu-item>ul>li>a {
+    font-family: 'PT Sans', sans-serif;
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+    text-transform: capitalize;
+}
+
+
+/*footer part end*/
+
+
+/*font-family: 'PT Sans', sans-serif;*/
